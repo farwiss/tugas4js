@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 4 JAVASCRIPT</title>
+    <script src="https://unpkg.com/sweetalert2@7.19.3/dist/sweetalert2.all.js"></script>
+</head>
+<body>
+    <div>
+      <form id="outputGaji">
+        <h1 style="text-align: center;">INPUT DATA PEGAWAI</h1>
+        <table id="hasilPegawai"
+          style="
+            width: 50%;
+            background-color: khaki;
+            border: 1px solid;
+            text-align: center;
+            margin: auto;
+          ">
+            <td><label for="">Nama Pegawai</label></td>
+            <td>
+              <input type="text" name="nama" id="" placeholder="Masukkan Nama Anda" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Jabatan Pegawai</label></td>
+            <td>
+            <select type="text" name="jabatan" id=""></select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Status Pegawai</label></td>
+            <td>
+              <select type="text" name="status" id=""></select>
+            </td>
+          </tr>
+          <tr>
+          <td>
+          <input style="font-size: large;" type="button" name="proses" id="hitungGaji"  value="Tampilkan Total Gaji" onclick="gajiPegawai()">
+          </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    
+      <script src="js/pegawai.js"></script>
+    </body>
+</html>
